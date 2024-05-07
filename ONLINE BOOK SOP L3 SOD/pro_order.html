@@ -1,0 +1,90 @@
+<html>
+<head> <title> purchase order</title>
+<style>
+body{
+margin: 10;
+font-family: Arial, Helvetica,sans-serif;
+background-color: lightgray;
+}
+input[type=email],input[type=number],input[type=adress]{
+width: 90%;
+margin: 10px;
+border:2px solid white;
+color: green;
+}
+footer{
+background-color : red;
+text-align:center;
+color : white;
+}
+footer a{
+text-decoration : none ;}
+.ftrimg{
+height : 10px;
+}
+</style>
+</head>
+<body>
+<table>
+
+<tr>
+<td> <img src="image/stock.JPEG"\></td>
+<td bgcolor="#669999">
+<form Method="Post" action="index.html">
+<h1>Product Purchase Order</h1>
+<input type="text"name="fname"> <input type="text"name="Lname"> <BR>
+First Name   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  Last Name<br>
+  <div class="inp">
+<input type="email" placeholder="your Email...."name="email"> <br>
+example@gmail.com<br>
+<input type="adress" placeholder="full address here of your location ................"name="adress"> <br>
+Street Address <br>
+<input type="number" placeholder="+250....."name="contact"> <br>
+</div>
+contact <br>
+
+<input type="radio" Name="Male" value="Male"> Male
+<input type="radio" Name="Female" value="Male"> Female<br>
+Country 
+<select>
+<option> Rwanda</option>
+<option> Burundi</option>
+<option> Uganda</option>
+<option> Kenya</option>
+</select><br>
+<div class="pruc">
+
+<div>
+<fieldset><legend align="center"> My Product</legend>
+<input type="checkbox"><img src="image/website.JPG" height="5%" width="5%"\> 
+Website Development <br>
+<input type="checkbox"> <img src="image/english.JPEG" height="5%" width="5%"\>
+English  <br>
+Payment Method<br>
+<input type="radio" Name="Momo pay" value="Momo pay"> 
+<img src="image/momo.JPEG" height="10%"width="10%"\>momo pay
+ <br>
+<input type="radio" Name="Debit or Credit Card" value="Debit or Credit Card"> 
+<img src="image/credit.JPEG" height="10%"width="10%"\> credit card
+<br>
+<input type="submit"name="purchase" value="Purchase">  &nbsp;&nbsp;&nbsp;
+<input type="Reset"name="Cancel" value="Cancel">
+</fieldset>
+</form>
+ </td>
+</tr>
+
+</table>
+
+<footer>
+<p> Auther: Level 3 SOD  &copy; Apicur TSS 2024 <br>
+
+<a href="https://accounts.google.com/v3/signin/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&hl=en&authuser=0&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=AddSession">
+ <img class="ftrimg" src="image/gmail.PNG"/> leve3sod@gmail.com</a>
+
+</footer>
+
+</body>
+</html>
